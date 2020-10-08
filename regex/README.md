@@ -14,3 +14,8 @@ text = pattern.findall(text)
 pattern = re.compile(r'([\p{IsHan}\p{IsBopo}]+)', re.UNICODE)
 text = pattern.sub(r'[\1]', text)
 ```
+
+2-or-more whitespace characters
+```python
+r'\s{2,}'
+```
