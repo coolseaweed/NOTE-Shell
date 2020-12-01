@@ -1,6 +1,7 @@
 # 예제
 
 ## 1. HTML
+  Tag 추출
   ```python
   # regex
   '<辞書項目>([\s\S]*?)<\/辞書項目>'
@@ -27,7 +28,7 @@
   ```
 
 
-
+## 2. Sub string
 (단어A)/(단어B) 패턴에서 단어B만 고르는 방법:
 ```python
 pattern = re.compile(r'\([^)]*\)/\(([^)]*)\)')
